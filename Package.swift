@@ -15,11 +15,8 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "StackWrapper"
-        ),
-        .testTarget(
-            name: "StackWrapperTests",
-            dependencies: ["StackWrapper"]
-        ),
+            name: "StackWrapper",
+            path: "Sources/StackWrapper"
+        )
     ]
 )
